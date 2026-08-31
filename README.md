@@ -2,4 +2,5 @@
 Assignment Tracker
 
 Example Name
+
 This is an application that tracks students’ assignments separated by course name and assignment due date.
