@@ -1,6 +1,19 @@
-# cs2114-project1-group1
-Assignment Tracker
+# ClassMate Task Tracker
 
-Example Name
+ClassMate is a Java program for organizing assignments by course and due date.
 
-This is an application that tracks students’ assignments separated by course name and assignment due date.
+## How to compile and run
+
+Import the project into Eclipse. Eclipse will compile the Java files automatically. Right-click `TrackerApp.java` and select **Run As → Java Application**.
+
+## How to run the tests
+
+In Eclipse, right-click the project and select **Run As → JUnit Test**.
+
+## Project files
+
+- `Assignment.java` stores an assignment’s name, course, and due date.
+- `AssignmentTracker.java` manages courses and assignments.
+- `TrackerStorage.java` saves and loads tracker data.
+- `TrackerApp.java` displays the menu and handles user input.
+- The test files contain the JUnit tests.
