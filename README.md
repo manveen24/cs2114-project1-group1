@@ -17,3 +17,8 @@ In Eclipse, right-click the project and select **Run As → JUnit Test**.
 - `TrackerStorage.java` saves and loads tracker data.
 - `TrackerApp.java` displays the menu and handles user input.
 - The test files contain the JUnit tests.
+
+## System Diagram
+
+<img width="1018" height="342" alt="image" src="https://github.com/user-attachments/assets/70cee39c-ae12-4bea-8636-154a9983614c" />
+
