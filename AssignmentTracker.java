@@ -2,18 +2,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Comparator;
 
+// -------------------------------------------------------------------------
 /**
-*   Manage courses and assignments and provide sorted assignment
-*   lists. 
-*/
-
+ *  Manage courses and assignments and provide sorted assignment
+*   lists.
+ * 
+ *  @author will
+ *  @version Sep 21, 2026
+ */
 public class AssignmentTracker
 {
     private ArrayList<String> courses;
     private ArrayList<Assignment> assignments;
 
     /**
-    *   Constructor for theclass. 
+    *   Constructor for the class. 
     */
     public AssignmentTracker() {
         courses = new ArrayList<String>();
@@ -32,6 +35,7 @@ public class AssignmentTracker
     /**
     *   Method to ensure that when a course is being added, 
     *   it has proper input and the course name gets trimmed. 
+     * @param courseName the course being added
     */
     public void addCourse(String courseName) {
         if (courseName == null) {
@@ -62,6 +66,7 @@ public class AssignmentTracker
     /**
     *   Method to add an assignment. Ensures that the course exists 
     *   and the method also is not case sensitive. 
+     * @param assignment the assignment being added
     */
     public void addAssignment(Assignment assignment) {
         if (assignment == null) {
