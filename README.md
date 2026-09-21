@@ -20,5 +20,6 @@ In Eclipse, right-click the project and select **Run As → JUnit Test**.
 
 ## System Diagram
 
-<img width="1018" height="342" alt="image" src="https://github.com/user-attachments/assets/70cee39c-ae12-4bea-8636-154a9983614c" />
+<img width="1001" height="328" alt="image" src="https://github.com/user-attachments/assets/74ab8575-9a65-4322-91fb-f7889e7db504" />
+
 
